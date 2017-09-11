@@ -1,0 +1,14 @@
+<div class="users-wrapper">
+    <h1>Users</h1>
+    <div class="users-wrapper">
+        <a ng-href="/#!/users/{{user.id}}" class="card-users" ng-repeat="user in usersIndexCtrl.users">
+            <!-- <div class="card" title="{{user.name}}">
+                <h2 class="h3">{{user.name}}</h2>
+                <p>{{user.bio}}</p>
+            </div> -->
+            <nw-card header="user.name"></nw-card>
+            <!-- <nw-card header="user.name" icon="user.image"></nw-card> -->
+            <!-- <nw-card header="{{user.name}}"></nw-card> -->
+        </a>
+    </div>
+</div>
